@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIEL</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- BACKGROUND LAYERS -->
+  <div class="bg-darker"></div>
+  <div class="bg-smoke"></div>
+  <div class="wired-gang"></div>
+  <div class="bg-overlay"></div>
+  <div class="scanlines"></div>
+
+  <!-- MAIN -->
+  <main class="login-screen">
+
+    <img
+      class="wired-logo"
+      src="WiredLoginNew.gif"
+      alt="Wired logo"
+      draggable="false"
+    />
+
+    <h1>SIEL</h1>
+    <p class="jp">[ entry interface layer ]</p>
+
+    <form id="commandForm" autocomplete="off">
+      <label for="commandInput">PMS:</label>
+
+      <input
+        id="commandInput"
+        type="text"
+        placeholder="input"
+        autocomplete="off"
+      />
+
+      <button type="submit">Access</button>
+    </form>
+
+    <p id="error"></p>
+
+    <p class="note">
+      <b>SYSTEM:</b> unknown pms will be discarded.
+    </p>
+
+    <section id="contentBox" class="content-box hidden"></section>
+
+  </main>
+
+  <!-- POPUP -->
+  <div id="popup" class="popup hidden">
+    <button id="closePopup" type="button">x</button>
+    <div id="popupContent"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
