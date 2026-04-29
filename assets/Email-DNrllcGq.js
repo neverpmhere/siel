@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-xjYCO11z.js";var t=e();function n(){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(`h3`,{children:`Contact`}),(0,t.jsxs)(`p`,{children:[(0,t.jsx)(`b`,{children:`Email:`}),` `,(0,t.jsx)(`a`,{href:`neverpmhere@gmail.com`,children:`neverpmhere@gmail.com`})]})]})}export{n as default};
