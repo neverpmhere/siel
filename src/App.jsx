@@ -3,6 +3,8 @@ import { pages } from "./data/pages";
 import "./index.css";
 
 function App() {
+  const base = import.meta.env.BASE_URL;
+
   const [activePage, setActivePage] = useState(null);
   const [error, setError] = useState("");
 
@@ -58,7 +60,7 @@ function App() {
       <main className="login-screen">
         {!activePage && (
           <>
-            <img className="wired-logo" src="/wiredlogin.gif" alt="" />
+            <img className="wired-logo" src={`${base}wiredlogin.gif`} alt="" />
 
             <h1>SIEL</h1>
             <p className="subtitle">[ system interface entry layer ]</p>

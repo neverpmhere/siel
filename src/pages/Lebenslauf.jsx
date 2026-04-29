@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./lebenslauf.css";
 
 function Lebenslauf() {
+  const base = import.meta.env.BASE_URL;
   const [lang, setLang] = useState("de");
 
   function toggleLang() {
@@ -29,7 +30,7 @@ function Lebenslauf() {
         </div>
 
         <div className="cv-header">
-          <img className="cv-avatar" src="avatar.png" alt="Avatar" />
+          <img className="cv-avatar" src={`${base}avatar.png`} alt="Avatar" />
 
           <div className="cv-identity">
             <p><b>Name:</b> Sviatoslav</p>

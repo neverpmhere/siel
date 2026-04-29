@@ -17,13 +17,14 @@ function Lain({ onBack }) {
     const audio = audioRef.current;
     if (!audio || !audioSrc) return;
 
+    audio.pause();
+    audio.currentTime = 0;   // ← важно (сброс трека)
+
     audio.volume = volume;
     audio.loop = true;
 
     if (soundOn) {
       audio.play().catch(() => {});
-    } else {
-      audio.pause();
     }
   }, [soundOn, audioSrc]);
 

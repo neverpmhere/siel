@@ -5,7 +5,7 @@
   height: 100vh;
   background: black;
   overflow: hidden;
-  cursor: url("lain/cursor.gif"), auto;
+  cursor: url("/siel/lain/cursor.gif"), auto;
   image-rendering: pixelated;
   z-index: 999;
 }
@@ -32,7 +32,7 @@
   border-radius: 50%;
 
   color: rgba(255, 255, 255, 0.6);
-  cursor: url("lain/cursor2.gif"), pointer;
+  cursor: url("/siel/lain/cursor2.gif"), pointer;
 
   transition: 0.18s ease;
 }
@@ -125,7 +125,7 @@
   outline: none !important;
   box-shadow: none !important;
 
-  cursor: url("lain/cursor2.gif"), pointer;
+  cursor: url("/siel/lain/cursor2.gif"), pointer;
 }
 
 .lain-volume input.lain-slider::-webkit-slider-runnable-track {

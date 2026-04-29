@@ -3,7 +3,7 @@
 .love-bg {
   position: fixed;
   inset: 0;
-  background-image: url("lain/lainlove.gif");
+  background-image: url("/siel/lain/lainlove.gif");
   background-repeat: repeat;
   background-size: auto;
   background-position: top left;
@@ -20,6 +20,6 @@
   height: 600px;
   transform: translateX(-50%);
   image-rendering: pixelated;
-  cursor: url("lain/cursor2.gif"), pointer;
+  cursor: url("/siel/lain/cursor2.gif"), pointer;
   z-index: 2;
 }

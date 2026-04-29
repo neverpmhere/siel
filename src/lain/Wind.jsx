@@ -1,13 +1,15 @@
 import "./wind.css";
 
 function Wind({ goTo }) {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <>
       <div className="wind-bg" />
 
       <img
         className="wind-sun"
-        src="/lain/sun.gif"
+        src={`${base}lain/sun.gif`}
         alt="Sun"
         draggable="false"
         onClick={() => goTo("invlain")}
@@ -15,7 +17,7 @@ function Wind({ goTo }) {
 
       <img
         className="wind-lain"
-        src="/lain/laindressslow.gif"
+        src={`${base}lain/laindressslow.gif`}
         alt="Lain"
         draggable="false"
       />
