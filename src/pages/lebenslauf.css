@@ -190,14 +190,14 @@
     opacity: 0 !important;
   }
 
-  /* 💀 ЖЁСТКИЙ фикс для кнопки (на случай багов Chrome) */
+  /* fix */
   .lang-button {
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
   }
 
-  /* Контейнер */
+  /* container */
   .login-screen {
     width: 100% !important;
     min-height: auto !important;
