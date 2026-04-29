@@ -36,7 +36,7 @@ body {
 }
 
 .bg-darker {
-  background-image: url("bg_darker.gif");
+  background-image: url("/siel/bg_darker.gif");
   background-repeat: repeat;
   animation: darkerMove 140s linear infinite;
   opacity: 1;
@@ -45,7 +45,7 @@ body {
 }
 
 .bg-smoke {
-  background-image: url("bg_dark.gif");
+  background-image: url("/siel/bg_dark.gif");
   background-repeat: repeat;
   animation: smokeMove 60s linear infinite;
   opacity: 1;
