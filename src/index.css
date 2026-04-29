@@ -54,12 +54,11 @@ body {
 }
 
 .wired-gang {
-  background-image: url("/icons.gif");
-  background-repeat: repeat-x;
-  background-position: bottom;
-  animation: wiredGangMove 20s linear infinite;
-  opacity: 0.8;
-  z-index: -4;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
 }
 
 .bg-overlay {
