@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-xjYCO11z.js";var t=e();function n({goTo:e}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(`div`,{className:`love-bg`}),(0,t.jsx)(`img`,{className:`love-lain`,src:`/siel/lain/lainbehindmove.gif`,alt:`LoveLain`,draggable:`false`,onClick:()=>e(`wind`)})]})}export{n as default};
