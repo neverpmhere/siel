@@ -12,7 +12,7 @@ function InvLain({ goTo }) {
         src={`${base}lain/vislain.gif`}
         alt="InvLain"
         draggable="false"
-        onClick={() => goTo("love")}
+        onClick={() => goTo("hidden")}
       />
     </>
   );

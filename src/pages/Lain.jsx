@@ -86,7 +86,7 @@ function Lain({ onBack }) {
         </svg>
       </button>
 
-      <Suspense fallback={null}>
+      <Suspense fallback={<div style={{color: "red"}}>loading...</div>}>
         <PageComponent goTo={goTo} />
       </Suspense>
 

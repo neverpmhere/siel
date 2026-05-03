@@ -63,7 +63,7 @@ function App() {
             <img className="wired-logo" src={`${base}wiredlogin.gif`} alt="" />
 
             <h1>SIEL</h1>
-            <p className="subtitle">[ system interface entry layer ]</p>
+            <p className="subtitle">[ a copulare ]</p>
 
             <form onSubmit={handleSubmit}>
               <label htmlFor="parameter">Parameter:</label>
@@ -82,7 +82,7 @@ function App() {
             <p id="error">{error}</p>
 
             <p className="note">
-              <b>SYSTEM:</b> awaiting valid parameter
+              <b>SYSTEM:</b> awaiting valid pms
             </p>
           </>
         )}

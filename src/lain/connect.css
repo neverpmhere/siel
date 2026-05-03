@@ -1,0 +1,21 @@
+.connect-bg {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 1;
+}
+
+.connect-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  width: 942px;
+  height: 942px;
+
+  transform: translate(-50%, -50%);
+
+  image-rendering: pixelated;
+  cursor: url("/siel/lain/cursor2.gif"), pointer;
+  z-index: 2;
+}

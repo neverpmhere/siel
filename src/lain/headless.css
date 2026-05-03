@@ -1,26 +1,24 @@
-.invlain-bg {
+.headless-bg {
   position: fixed;
   inset: 0;
-  background-image: url("/siel/lain/static.gif");
+  background-image: url("/siel/lain/bg4.gif");
   background-repeat: repeat;
   background-size: auto;
   background-position: top left;
   z-index: 1;
-  pointer-events: none;
 }
 
-.invlain-image {
+.headless-image {
   position: fixed;
   top: 50%;
   left: 50%;
 
-  width: 400px;
-  height: 324px;
+  width: 701px;
+  height: 700px;
 
   transform: translate(-50%, -50%);
 
   image-rendering: pixelated;
   cursor: url("/siel/lain/cursor2.gif"), pointer;
-  z-index: 5;
-  pointer-events: auto;
+  z-index: 2;
 }

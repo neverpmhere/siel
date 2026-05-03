@@ -12,7 +12,7 @@ function Lebenslauf() {
   return (
     <div className="cv-page">
 
-      {/* 🌐 LANGUAGE BUTTON (вне рамки) */}
+      {/* 🌐 LANGUAGE BUTTON */}
       <button className="lang-button" onClick={toggleLang}>
         <svg viewBox="0 0 24 24">
           <path d="M12 2a10 10 0 100 20 10 10 0 000-20z" />
@@ -61,23 +61,23 @@ function Lebenslauf() {
           <ul>
             <li>
               {lang === "de"
-                ? "HTML / CSS / JavaScript: Grundkenntnisse mit praktischer Erfahrung"
-                : "HTML / CSS / JavaScript: basic level with practical experience"}
+                ? "HTML / CSS / JavaScript: Strukturierung und Gestaltung moderner Webinterfaces"
+                : "HTML / CSS / JavaScript: building interactive web interfaces"}
             </li>
             <li>
               {lang === "de"
-                ? "React + Vite: erste Erfahrungen, aktuell im Lernprozess"
-                : "React + Vite: minimal experience"}
+                ? "React + Vite: Entwicklung einfacher Webinterfaces und Komponenten"
+                : "React + Vite: creation of simple web applications and UI components"}
             </li>
             <li>
               {lang === "de"
-                ? "Teamarbeit in Webprojekten (Struktur, Komponentenlogik)"
+                ? "Teamarbeit in Webprojekten (Struktur, Komponentenlogik) sowie Entwicklung von Komponenten anhand vorgegebener UI-Designs"
                 : "Team-based web development"}
             </li>
             <li>
               {lang === "de"
-                ? "Automatisierung und Telegram-Bots, grundlegende SQL-Kenntnisse"
-                : "Automation and Telegram bots, basic SQL"}
+                ? "Entwicklung von Telegram-Bots und Userbot-Modulen mit API-Integration sowie grundlegende Arbeit mit SQL-Datenbanken"
+                : "Development of Telegram bots and userbot modules with API integration, including basic work with SQL databases"}
             </li>
             <li>
               {lang === "de"
@@ -96,8 +96,8 @@ function Lebenslauf() {
           </p>
           <p>
             {lang === "de"
-              ? "Fachabschluss im Bereich Gastronomie — qualifizierter Facharbeiter"
-              : "College diploma in gastronomy — qualified specialist"}
+              ? "Fachabschluss im Bereich Gastronomie - qualifizierter Facharbeiter"
+              : "College diploma in gastronomy - qualified specialist"}
           </p>
         </section>
 
@@ -120,13 +120,13 @@ function Lebenslauf() {
             </li>
             <li>
               {lang === "de"
-                ? "Interesse an Automatisierung, Bots und Websystemen"
-                : "Interest in automation, bots and web systems"}
+                ? "Kleine persönliche Projekte mit webbasierten Tools, lokalen Datenstrukturen und einfachen Benutzeroberflächen"
+                : "Small personal projects with web-based tools, local data systems and simple user interfaces"}
             </li>
             <li>
               {lang === "de"
-                ? "Strukturiertes Arbeiten und Lernen durch praktische Umsetzung"
-                : "Comfortable learning by building and structured tasks"}
+                ? "UI-Konzepte, Weblayouts und technische Benutzeroberflächen"
+                : "UI concepts, web layouts and technical user interfaces"}
             </li>
           </ul>
         </section>

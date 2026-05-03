@@ -1,0 +1,22 @@
+.space-bg {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 1;
+}
+
+.space-image {
+  position: fixed;
+  bottom: -1px;
+  left: 50%;
+
+  width: 1048px;
+  height: 800px;
+
+  transform: translateX(-50%);
+
+  image-rendering: pixelated;
+  cursor: url("/siel/lain/cursor2.gif"), pointer;
+
+  z-index: 2;
+}
