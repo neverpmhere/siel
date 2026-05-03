@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-xjYCO11z.js";var t=e();function n({goTo:e}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(`div`,{className:`space-bg`}),(0,t.jsx)(`img`,{className:`space-image`,src:`/siel/lain/step2.gif`,alt:`Face`,draggable:`false`,onClick:()=>e(`headless`)})]})}export{n as default};

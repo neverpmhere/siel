@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-xjYCO11z.js";var t=e();function n({goTo:e}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(`div`,{className:`headless-bg`}),(0,t.jsx)(`img`,{className:`headless-image`,src:`/siel/lain/hover.gif`,alt:`Hover`,draggable:`false`,onClick:()=>e(`connect`)})]})}export{n as default};

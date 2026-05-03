@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-xjYCO11z.js";var t=e();function n({goTo:e}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(`div`,{className:`hidden-bg`}),(0,t.jsx)(`img`,{className:`hidden-eyes`,src:`/siel/lain/lainmyese.gif`,alt:`Eyes`,draggable:`false`,onClick:()=>e(`space`)})]})}export{n as default};
